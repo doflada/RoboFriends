@@ -1,14 +1,16 @@
 import React from 'react';
+import './SearchBox.css';
 
 const SearchBox = ({searchfield, searchChange}) => {
   return (
-    <div className='pa2'>
+    <div id='search-id' className='pa2'>
       <input
         className='pa3 ba b--green bg-lightest-blue'
         type='search'
         placeholder='search robots'
         onChange={searchChange}
       />
+      <h4>Robo Cards with <a href='https://robohash.org'>https://robohash.org</a></h4>
     </div>
   );
 }

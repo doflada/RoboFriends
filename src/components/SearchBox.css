@@ -1,0 +1,12 @@
+#search-id {
+  display: flex;
+  justify-content: center;
+}
+
+#search-id h4 {
+  margin-left: 5px;
+}
+
+#search-id a {
+  color: white;
+}
